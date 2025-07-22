@@ -1,5 +1,6 @@
 {
   "name": "s2e",
+  "homepage": "https://s2emanagement.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,6 @@
   },
   "dependencies": {
     "firebase": "^9.23.0",
-    "firebase-admin": "^11.11.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0"
