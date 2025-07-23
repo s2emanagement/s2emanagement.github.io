@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className="bg-brand text-[#1f2937]">
       <Navbar />
       <Hero />
       <About />
@@ -16,7 +16,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
