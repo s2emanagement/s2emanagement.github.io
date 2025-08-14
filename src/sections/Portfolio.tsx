@@ -6,7 +6,7 @@ import "keen-slider/keen-slider.min.css"
 const portfolioItems = [
   {
     title: "Regional Awareness Campaign – Healthy Beverage",
-    image: "/images/campaign1.jpg"
+    image: "/images/campaign1.jpg",
     description: `Drove regional engagement for a healthy coconut water brand through a Ramadan Bukber activation campaign.
 
 • Industry: Beverage (Coconut Water)
@@ -22,7 +22,7 @@ Full case study available upon request.`,
   },
   {
     title: "Family-Centric Campaign – Children’s Nutrition",
-    image: "/images/campaign2.jpg"
+    image: "/images/campaign2.jpg",
     description: `Promoted limited-time discount for a children’s milk drink through relatable mom-focused content.
 
 • Industry: Children’s FMCG
@@ -38,7 +38,7 @@ Full case study available upon request.`,
   },
   {
     title: "Niche Health Awareness – Functional Milk Drink",
-    image: "/images/campaign3.jpg"
+    image: "/images/campaign3.jpg",
     description: `Boosted awareness of a cholesterol-lowering drink via niche creator storytelling and personal testimonials.
 
 • Industry: Health & Wellness (Functional Beverage)
