@@ -109,11 +109,13 @@ const Portfolio = () => {
               }`}
             >
               <div className="rounded-xl overflow-hidden shadow-lg border border-secondary bg-white w-[90%] mx-auto">
-                <img
-                  src={item.image}
-                  alt={`Campaign ${index + 1}`}
-                  className="w-full h-[220px] object-cover"
-                />
+                <div className="w-full aspect-[16/9]">
+                  <img
+                    src={item.image}
+                    alt={`Campaign ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="p-6 text-left whitespace-pre-line text-sm leading-relaxed">
                   <h3 className="text-lg font-semibold mb-2 text-secondary">
                     {item.title}
@@ -143,4 +145,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio;
+export default Portfolio
